@@ -3,6 +3,8 @@
   $container = require_once('../Container.php');
   $controller = $container->getIndexController();
   $model = $controller->index();
+  
+  // Another TODO: Look at creating some sort of master page (header/footer )solution
 ?>
 
 <!DOCTYPE html>
